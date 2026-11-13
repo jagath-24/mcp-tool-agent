@@ -1,0 +1,4 @@
+Deployments run through GitHub Actions on every merge to main.
+The staging environment refreshes its database from a nightly production snapshot.
+Rollbacks are done by re-deploying the previous image tag from the container registry.
+Weather-sensitive batch jobs are paused automatically during severe weather alerts.

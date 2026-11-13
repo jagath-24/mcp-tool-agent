@@ -1,0 +1,4 @@
+New engineers get read access to the analytics database on day one.
+Write access to production is granted only after the first on-call rotation.
+All database credentials are rotated every 90 days via the internal secrets vault.
+Contact the platform team on Slack in #infra-support for access requests.
